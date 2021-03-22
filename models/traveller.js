@@ -12,12 +12,12 @@ Travellers.init(
             autoIncrement: true,
         },
         name: {
-            type: DateType.STRING,
+            type: DataTypes.STRING,
             allowNull: false,
             unique: true,
         },
         email: {
-            type: DateType.STRING,
+            type: DataTypes.STRING,
             allowNull: false,
             unique: true,
         },
