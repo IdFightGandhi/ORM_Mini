@@ -11,8 +11,8 @@ Location.init(
             primaryKey: true,
             autoIncrement: true,
         },
-        name: {
-            type: DateType.STRING,
+        location_name: {
+            type: DataTypes.STRING,
             allowNull: false,
             unique: true,
         },
